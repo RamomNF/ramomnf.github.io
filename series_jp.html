@@ -1,0 +1,224 @@
+<!DOCTYPE HTML>
+<!--
+	Massively by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>Ramom's Portfolio</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+	</head>
+	<body class="is-preload">
+
+		<!-- Wrapper -->
+			<div id="wrapper" class="fade-in">
+
+			
+			<!-- Header -->
+				<header id="header">
+					<a href="index.html" class="logo">Ramom Nunes Ferreira</a>
+				</header>
+
+			<!-- Nav -->
+				<nav id="nav">
+					<ul class="links">
+						<li><a href="index.html">Meu Portfólio</a></li>
+						<li><a href="about.html">Sobre</a></li>
+					</ul>
+					<ul class="icons">
+						<li><a href="https://www.linkedin.com/in/ramomnf/" class="icon brands fa-linkedin"><span class="label">Twitter</span></a></li>
+						<li><a href="https://medium.com/@ramomnf/" class="icon brands fa-medium"><span class="label">Medium</span></a></li>
+						<li><a href="https://www.kaggle.com/ramomnf" class="icon brands fa-kaggle"><span class="label">Kaggle</span></a></li>
+						<li><a href="https://github.com/RamomNF" class="icon brands fa-github"><span class="label">GitHub</span></a></li>
+					</ul>
+				</nav>
+
+			<!-- Main -->
+				<div id="main">
+					<!-- Post -->
+					<section class="post">										
+						<h1>Evolução das temporadas de animação japonesa</h1>
+						<ul class="actions">
+							<li><a href="https://github.com/RamomNF/GoogleColab/tree/master/TemporadasAnimacao" class="icon brands fa-github"><span class="label">GitHub</span></a></li>
+							<li><a href="https://medium.com/@ramomnf/evolu%C3%A7%C3%A3o-das-temporadas-de-anime-ao-longo-do-tempo-1c2c3eea205b?source=friends_link&sk=40ca4e7955c75445f7a5d66cb3a40092" class="icon brands fa-medium"><span class="label">Medium</span></a></li>
+						</ul>	
+
+
+						<h3>Motivação</h3>
+						<p>O site <i>anime-planet</i> possui notas e recomendações dos usuários para animações japonesas, possuindo um acervo com mais de 17000 animações datando do século passado até hoje.</p>
+						<p>Como a TV japonesa costuma ser dividida em quatro temporadas no ano, resolvi fazer um <i>web scrapping</i> para investigar essa sequência histórica e praticar minhas habilidades com análise de séries temporais. </p>
+						
+						<h3>Perguntas</h3>
+						<ul>
+							<li>As temporadas tem ficado melhores?</li>
+							<li>Qual é a melhor temporada do ano?</li>
+							<li>Qual a previsão para o próximo ano?</li>
+						</ul>
+
+						<h3>Dados</h3>
+
+						<p>O banco consiste apenas de animações televisivas. Filmes, animações originais, especiais e outras categorias ficaram de fora do <i>web scrapping</i>. </p>
+						<p>Além disso, possui no máximo os 35 melhores por temporada. Totalizando 2633 linhas e 4 colunas como exemplo abaixo:</p>
+
+						<div class="table-wrapper">
+							<table>
+								<thead>
+									<tr>
+										<th>Name</th>
+										<th>AverageRating</th>
+										<th>Season</th>
+										<th>Year</th>
+									</tr>
+								</thead>
+								<tbody>
+									<tr>
+										<td>Slayers</td>
+										<td> 4.1 </td>
+										<td>spring</td>
+										<td>1995</td>
+									</tr>									
+									<tr>
+										<td>Tenchi Universe</td>
+										<td> 4.0 </td>
+										<td>spring</td>
+										<td>1995</td>
+									</tr>
+									<tr>
+										<td>...</td>
+										<td>...</td>
+										<td>...</td>
+										<td>...</td>
+									</tr>
+									<tr>
+										<td>Chou Futsuu Toshi Kashiwa Densetsu R</td>
+										<td> 1.7 </td>
+										<td>summer</td>
+										<td>2020</td>
+									</tr>
+									<tr>
+										<td>Ninja Collection</td>
+										<td> 1.4 </td>
+										<td>summer</td>
+										<td>2020</td>
+									</tr>									
+								</tbody>
+							</table>
+						</div>
+
+						<h3>Técnicas</h3>
+						<p>Foram testadas diferentes técnicas para modelagem de séries temporais. Os quatro modelos que mostraram o melhor desempenho foram:</p>
+						<ul>
+							<li>SARIMA</li>
+							<li>ETS</li>
+							<li>TBATS</li>
+							<li>NNAR</li>
+						</ul>
+
+						<h3>Resultados</h3>
+						<p>A série apresenta tendência, heterocedasticidade e sazonalidade e a combinação dos quatro modelos apresentou melhor acurácia sobre o conjunto de dados teste.
+							Então, as temporadas tem se tornado melhores e a primavera tende a ser a melhor temporada. Porém, nos anos recentes a média das notas das temporadas tem sido mais homogênea.
+						</p>
+
+						<hr />	
+
+
+
+						<ul class="actions fit">
+							<li><a href="https://github.com/RamomNF/GoogleColab/tree/master/TemporadasAnimacao" class="button fit">GitHub</a></li>
+						</ul>
+						<ul class="actions fit">
+							<li><a href="https://medium.com/@ramomnf/evolu%C3%A7%C3%A3o-das-temporadas-de-anime-ao-longo-do-tempo-1c2c3eea205b?source=friends_link&sk=40ca4e7955c75445f7a5d66cb3a40092" class="button fit">Medium</a></li>
+						</ul>
+						</p>
+
+						
+						
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+					</section>
+				</div>
+
+				<!-- Footer -->
+					<footer id="footer">
+						<section class="split contact">
+							<section>
+								<h3>Email</h3>
+								<p><a href="mailto:ramomnf@gmail.com">ramomnf@gmail.com</a></p>
+							</section>
+							<section>
+								<h3>Social</h3>
+								<ul class="icons alt">
+									<li><a href="https://www.linkedin.com/in/ramomnf/" class="icon brands fa-linkedin"><span class="label">Twitter</span></a></li>
+									<li><a href="https://medium.com/@ramomnf/" class="icon brands fa-medium"><span class="label">Medium</span></a></li>
+									<li><a href="https://www.kaggle.com/ramomnf" class="icon brands fa-kaggle"><span class="label">Kaggle</span></a></li>
+									<li><a href="https://github.com/RamomNF" class="icon brands fa-github"><span class="label">GitHub</span></a></li>
+								</ul>
+							</section>
+						</section>
+					</footer>
+
+				<!-- Copyright -->
+					<div id="copyright">
+						<ul><li>&copy; RamomNF </li><li> Estatística e Ciência de Dados</a></li></ul>
+					</div>
+
+			</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
